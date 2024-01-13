@@ -1,0 +1,29 @@
+
+.bar_bottom::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background-color: #654EAE;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+}
+
+.bar_bottom:hover::after{
+    transform: scaleX(1);
+}
+.hamburguer{
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.hamburguer_line_one_animation{
+    rotate: 405deg
+}
+
+.hamburguer_line_two_animation{
+    min-width: 32px;
+    top: -9px;
+    rotate: -405deg;
+}
