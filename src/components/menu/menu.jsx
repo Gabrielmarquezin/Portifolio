@@ -29,7 +29,7 @@ export const Menu = ()=>{
 
     return(
         <MenuContext.Provider value={{active, setActive}}>
-            <nav className="flex justify-end w-full tablet:justify-start tablet:flex-col tablet:items-end">
+            <nav className="relative flex justify-end w-full tablet:justify-start tablet:flex-col tablet:items-end tablet:bg-[#131314]">
                 <div className="hidden tablet:block mb-2" id="hamburguer">
                     <Hamburguer />
                 </div>
@@ -39,12 +39,15 @@ export const Menu = ()=>{
                     className={`
                         flex 
                         [&_a]:text-text-comun [&_a]:font-menu [&_a]:tracking-[0.15rem] [&_li]:p-3
-                        tablet:max-w-[200px]
+                        [&_a]:text-menu-text
+                        tablet:w-[160px]
                         tablet:flex-col
-                        tablet:relative
                         tablet:top-full
                         tablet:duration-200 
                         tablet:ease-in-out
+                        tablet:h-[100vh]
+                        tablet:bg-[#131314]
+                        tablet:absolute
                 `}>
                     <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#" className="bar_bottom">HOME</a></li>
                     <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#" className="bar_bottom">SOBRE</a></li>

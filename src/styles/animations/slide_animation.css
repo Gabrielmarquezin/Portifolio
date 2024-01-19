@@ -1,0 +1,16 @@
+#circle-timeline{
+    transition: .3s;
+    height: 25px;
+}
+[data-anime-timeline="appear"]{
+    transition: .3s;
+    opacity: 0;
+}
+
+[data-anime-timeline].animate-timeline{
+    opacity: 1;
+}
+
+#circle-timeline.animate-timeline{
+    height: 150px;
+}
