@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { Home } from "./pages/home"
+import { Projetos } from "./pages/projeto"
 import { Sobre } from "./pages/sobre"
 import "./styles/animations/slide_animation.css"
 import { debounce } from "./utils/debounce"
@@ -40,8 +41,12 @@ function App() {
       <main
         className="
           mt-[150px]
+          flex
+          flex-col
+          gap-[150px]
         ">
         <Sobre />
+        <Projetos />
       </main>
     </div>
   )

@@ -1,0 +1,6 @@
+.animation{
+    transition: .2s;
+}
+.animation_height{
+    min-height: 100%;
+}
