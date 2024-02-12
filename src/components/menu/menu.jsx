@@ -49,11 +49,11 @@ export const Menu = ()=>{
                         tablet:bg-[#131314]
                         tablet:absolute
                 `}>
-                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#" className="bar_bottom">HOME</a></li>
-                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#" className="bar_bottom">SOBRE</a></li>
-                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#" className="bar_bottom">PROJETOS</a></li>
-                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#" className="bar_bottom">HABILIDADES</a></li>
-                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#" className="bar_bottom">CONTATOS</a></li>
+                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#home" className="bar_bottom">HOME</a></li>
+                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#sobre" className="bar_bottom">SOBRE</a></li>
+                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#projetos" className="bar_bottom">PROJETOS</a></li>
+                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#habilidades" className="bar_bottom">HABILIDADES</a></li>
+                    <li className="tablet:flex tablet:flex-col tablet:items-end"><a href="#contatos" className="bar_bottom">CONTATOS</a></li>
                 </ul>
             </nav>
         </MenuContext.Provider>

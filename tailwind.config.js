@@ -8,7 +8,8 @@ export default {
     extend: {
       backgroundColor:{
         fundo: '#171719',
-        pantera: "#654EAE"
+        pantera: "#654EAE",
+        button_hability: "rgba(255, 255, 255, 0.360)"
       },
       fontFamily: {
         'pantera': ['decotura'],
@@ -22,7 +23,7 @@ export default {
       },
       screens: {
         'tablet': {'max': '810px'},
-        'smartphone': {'max': '480px'},
+        'smartphone': {'max': '670px'},
         'big-tablet': {'min': '810px'}
       },
       fontSize:{
@@ -31,17 +32,19 @@ export default {
         'menu-text': 'clamp(0.6rem, 3.5vw, 1rem)',
         'desc': 'clamp(0.8rem, 2.5vw, 1rem)',
         'timeline': 'clamp(0.7rem, 2vw, 0.9rem)',
-        'desc-project': 'clamp(0.8rem, 3vw, 1rem)'
+        'desc-project': 'clamp(0.8rem, 3vw, 0.9rem)',
+        'text-project-block': 'clamp(1rem, 6vw, 3.5rem)',
       },
       gridTemplateColumns: {
-        '30': 'repeat(30, minmax(0, 1fr))'
+        '30': 'repeat(30, minmax(0, 1fr))',
+        '20': 'repeat(20, minmax(35px, 70px))'
       },
       gridTemplateRows: {
         '30': 'repeat(30, minmax(0, 1fr))',
-        '50': 'repeat(50, minmax(0, 1fr))'
+        '20': 'repeat(20, minmax(35px, 70px))'
       },
       clipPath:{
-        'trapezio': 'polygon(20% 100%, 40% 100%, 80% 0%, 60% 0%)'
+        'trapezio': 'polygon(0% 40%, 100% 40%, 100% 60%, 0% 60%)'
       }
     },
   },

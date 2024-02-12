@@ -3,7 +3,7 @@ import { TimeLine } from "../components/timeline/timeline"
 
 export const Sobre = ()=>{
     return(
-        <article className="flex flex-col gap-[85px]">
+        <article className="flex flex-col gap-[85px]" id="sobre" data-anime="left">
             <div id="sobre" data-anime="left">
                 <Title text={"SOBRE"} />
                 <p className="text-desc text-text-comun">
@@ -19,7 +19,7 @@ export const Sobre = ()=>{
                     . Busco ser um Desenvolvedor ou um Analista de Dados
                 </p>
             </div>
-            <div className="h-[475px] smartphone:max-w-[355px] overflow-hidden scroll-smooth overflow-x-auto">
+            <div className="h-[487px] smartphone:max-w-[355px] overflow-hidden scroll-smooth overflow-x-auto">
                 <TimeLine />
             </div>
         </article>

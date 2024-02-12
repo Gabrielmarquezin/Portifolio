@@ -1,6 +1,7 @@
 import { BarTimeLine } from "./components/bar"
 
-export const TimeLine = ({espelhar, year, desc})=>{
+export const TimeLine = ()=>{
+    
     return(
         <div className="flex items-center mt-[230px]">
             <BarTimeLine 

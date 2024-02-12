@@ -21,7 +21,7 @@ export const ContactBar = ()=>{
                     text-white
 
                 '
-                href="#"
+                href="https://github.com/Gabrielmarquezin"
             >
                 <BsGithub />
             </a>
@@ -39,7 +39,7 @@ export const ContactBar = ()=>{
                     hover:text-fundo
                     cursor-pointer
                 '
-                href="#"
+                href="https://www.linkedin.com/in/gabriel-marques-5922ba262/"
                 >
                 <FaLinkedinIn />
             </a>
@@ -56,7 +56,7 @@ export const ContactBar = ()=>{
                     hover:text-fundo
                     cursor-pointer
                 '
-                href="#"
+                href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVJTQhzrBswsXdpbvdhhNfDpbLbGCtlNVChMpLDtnmhwrLvqLPKMXrpfXtrmtfXVTSDtdD"
                 >
                 <TfiEmail />
             </a>
