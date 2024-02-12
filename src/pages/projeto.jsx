@@ -137,14 +137,14 @@ export const Projetos = ()=>{
                                    return <ProjectBlocked />
                                 }else{
                                     const techs = row[2].split("+SEPARADOR+")
-
+                                    
                                     return(
                                         <ProjectReleased
                                             textLoad="carregando projeto..."
                                             TitleProject={row[0] ?? 'titulo nao definido'}
                                             TechsArray={techs ?? []}
                                             DescProject={row[1] ?? ''}
-                                            Gihub={row[4]}
+                                            Github={row[4]}
                                             LinkHost={row[5]}
                                             imgProject={row[3]}
                                             key={i.toString()}
@@ -163,14 +163,14 @@ export const Projetos = ()=>{
                                    return <ProjectBlocked key={i}/>
                                 }else{
                                     const techs = row[2].split("+SEPARADOR+")
-
+                                    
                                     return(
                                         <ProjectReleased
                                             textLoad="carregando projeto..."
                                             TitleProject={row[0] ?? 'titulo nao definido'}
                                             TechsArray={techs ?? []}
                                             DescProject={row[1] ?? ''}
-                                            Gihub={row[4]}
+                                            Github={row[4]}
                                             LinkHost={row[5]}
                                             imgProject={row[3]}
                                             key={i.toString()}
