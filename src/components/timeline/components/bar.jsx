@@ -52,7 +52,7 @@ export const BarTimeLine = ({espelhar, year, title, desc})=>{
                 <p className="text-timeline">
                     {desc}
                 </p>
-                <a className="text-pantera-color text-timeline" href="">arquivo</a>
+                <a className="text-pantera-color text-timeline hidden" href="">arquivo</a>
             </div>
             <div 
                 className={`

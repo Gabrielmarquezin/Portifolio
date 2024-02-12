@@ -144,8 +144,8 @@ export const Projetos = ()=>{
                                             TitleProject={row[0] ?? 'titulo nao definido'}
                                             TechsArray={techs ?? []}
                                             DescProject={row[1] ?? ''}
-                                            Gihub="#"
-                                            LinkHost="#"
+                                            Gihub={row[4]}
+                                            LinkHost={row[5]}
                                             imgProject={row[3]}
                                             key={i.toString()}
                                         />
@@ -170,8 +170,8 @@ export const Projetos = ()=>{
                                             TitleProject={row[0] ?? 'titulo nao definido'}
                                             TechsArray={techs ?? []}
                                             DescProject={row[1] ?? ''}
-                                            Gihub="#"
-                                            LinkHost="#"
+                                            Gihub={row[4]}
+                                            LinkHost={row[5]}
                                             imgProject={row[3]}
                                             key={i.toString()}
                                         />
